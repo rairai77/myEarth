@@ -18,7 +18,7 @@ The centerpiece of the website is a fully interactable 3D globe. You can zoom in
 
 We used a variety of technologies to build the website including BootStrap, require.js, globe.gl, json/geojson, JS, HTML, and CSS.<br><br>
 We collected and processed emission data from [https://edgar.jrc.ec.europa.eu/](https://edgar.jrc.ec.europa.eu/).
-We registered for a .tech domain from Domain.com - [myearth.tech](myearth.tech).
+**We registered for a .tech domain from Domain.com - [myearth.tech](myearth.tech).**
 
 ## Challenges we ran into
 
