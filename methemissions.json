@@ -1,0 +1,1790 @@
+[
+  {
+    "Name": "Canada",
+    "Y_2018": 61.8
+  },
+  {
+    "Name": "Canada",
+    "Y_2018": 4380
+  },
+  {
+    "Name": "Saint Pierre and Miquelon",
+    "Y_2018": 0.0000802
+  },
+  {
+    "Name": "Saint Pierre and Miquelon",
+    "Y_2018": 0.206
+  },
+  {
+    "Name": "United States Minor Outlying Islands",
+    "Y_2018": "NULL"
+  },
+  {
+    "Name": "United States",
+    "Y_2018": 407
+  },
+  {
+    "Name": "United States",
+    "Y_2018": 25100
+  },
+  {
+    "Name": "Mexico",
+    "Y_2018": 6500
+  },
+  {
+    "Name": "Mexico",
+    "Y_2018": 116
+  },
+  {
+    "Name": "Aruba",
+    "Y_2018": 1.14
+  },
+  {
+    "Name": "Aruba",
+    "Y_2018": 0.00253
+  },
+  {
+    "Name": "Anguilla",
+    "Y_2018": 0.154
+  },
+  {
+    "Name": "Netherlands Antilles",
+    "Y_2018": 4.13
+  },
+  {
+    "Name": "Netherlands Antilles",
+    "Y_2018": "NULL"
+  },
+  {
+    "Name": "Antigua and Barbuda",
+    "Y_2018": 0.000112
+  },
+  {
+    "Name": "Antigua and Barbuda",
+    "Y_2018": 2.36
+  },
+  {
+    "Name": "Bahamas",
+    "Y_2018": 0.0312
+  },
+  {
+    "Name": "Bahamas",
+    "Y_2018": 12.1
+  },
+  {
+    "Name": "Belize",
+    "Y_2018": 0.558
+  },
+  {
+    "Name": "Belize",
+    "Y_2018": 18
+  },
+  {
+    "Name": "Bermuda",
+    "Y_2018": 0.97
+  },
+  {
+    "Name": "Bermuda",
+    "Y_2018": 1.28
+  },
+  {
+    "Name": "Barbados",
+    "Y_2018": 0.0456
+  },
+  {
+    "Name": "Barbados",
+    "Y_2018": 7.23
+  },
+  {
+    "Name": "Costa Rica",
+    "Y_2018": 191
+  },
+  {
+    "Name": "Costa Rica",
+    "Y_2018": 3.59
+  },
+  {
+    "Name": "Cuba",
+    "Y_2018": 518
+  },
+  {
+    "Name": "Cuba",
+    "Y_2018": 14.6
+  },
+  {
+    "Name": "Cayman Islands",
+    "Y_2018": 0.00000955
+  },
+  {
+    "Name": "Cayman Islands",
+    "Y_2018": 1.07
+  },
+  {
+    "Name": "Dominica",
+    "Y_2018": 0.00631
+  },
+  {
+    "Name": "Dominica",
+    "Y_2018": 2.17
+  },
+  {
+    "Name": "Dominican Republic",
+    "Y_2018": 434
+  },
+  {
+    "Name": "Dominican Republic",
+    "Y_2018": 18.9
+  },
+  {
+    "Name": "Guadeloupe",
+    "Y_2018": 0.199
+  },
+  {
+    "Name": "Guadeloupe",
+    "Y_2018": 9.46
+  },
+  {
+    "Name": "Grenada",
+    "Y_2018": 1.94
+  },
+  {
+    "Name": "Grenada",
+    "Y_2018": 0.00788
+  },
+  {
+    "Name": "Guatemala",
+    "Y_2018": 102
+  },
+  {
+    "Name": "Guatemala",
+    "Y_2018": 532
+  },
+  {
+    "Name": "Honduras",
+    "Y_2018": 27.8
+  },
+  {
+    "Name": "Honduras",
+    "Y_2018": 319
+  },
+  {
+    "Name": "Haiti",
+    "Y_2018": 189
+  },
+  {
+    "Name": "Haiti",
+    "Y_2018": 144
+  },
+  {
+    "Name": "Jamaica",
+    "Y_2018": 5.3
+  },
+  {
+    "Name": "Jamaica",
+    "Y_2018": 33.3
+  },
+  {
+    "Name": "Saint Kitts and Nevis",
+    "Y_2018": 1.49
+  },
+  {
+    "Name": "Saint Kitts and Nevis",
+    "Y_2018": 0.000658
+  },
+  {
+    "Name": "Saint Lucia",
+    "Y_2018": 0.00657
+  },
+  {
+    "Name": "Saint Lucia",
+    "Y_2018": 2.73
+  },
+  {
+    "Name": "Montserrat",
+    "Y_2018": 0.685
+  },
+  {
+    "Name": "Montserrat",
+    "Y_2018": 0.129
+  },
+  {
+    "Name": "Martinique",
+    "Y_2018": 4.62
+  },
+  {
+    "Name": "Martinique",
+    "Y_2018": 0.0705
+  },
+  {
+    "Name": "Nicaragua",
+    "Y_2018": 371
+  },
+  {
+    "Name": "Nicaragua",
+    "Y_2018": 15.9
+  },
+  {
+    "Name": "Panama",
+    "Y_2018": 177
+  },
+  {
+    "Name": "Panama",
+    "Y_2018": 3.51
+  },
+  {
+    "Name": "Puerto Rico",
+    "Y_2018": 81.2
+  },
+  {
+    "Name": "Puerto Rico",
+    "Y_2018": 0.00231
+  },
+  {
+    "Name": "El Salvador",
+    "Y_2018": 131
+  },
+  {
+    "Name": "El Salvador",
+    "Y_2018": 5.45
+  },
+  {
+    "Name": "Turks and Caicos Islands",
+    "Y_2018": 0.00159
+  },
+  {
+    "Name": "Turks and Caicos Islands",
+    "Y_2018": 0.4
+  },
+  {
+    "Name": "Trinidad and Tobago",
+    "Y_2018": 0.3
+  },
+  {
+    "Name": "Trinidad and Tobago",
+    "Y_2018": 570
+  },
+  {
+    "Name": "Saint Vincent and the Grenadines",
+    "Y_2018": 1.95
+  },
+  {
+    "Name": "Saint Vincent and the Grenadines",
+    "Y_2018": 0.0155
+  },
+  {
+    "Name": "Virgin Islands_British",
+    "Y_2018": 0.487
+  },
+  {
+    "Name": "Virgin Islands_British",
+    "Y_2018": 0.00164
+  },
+  {
+    "Name": "Virgin Islands_USA",
+    "Y_2018": "NULL"
+  },
+  {
+    "Name": "Virgin Islands_USA",
+    "Y_2018": 2.06
+  },
+  {
+    "Name": "Brazil",
+    "Y_2018": 942
+  },
+  {
+    "Name": "Brazil",
+    "Y_2018": 21800
+  },
+  {
+    "Name": "Argentina",
+    "Y_2018": 116
+  },
+  {
+    "Name": "Argentina",
+    "Y_2018": 5070
+  },
+  {
+    "Name": "Bolivia",
+    "Y_2018": 10.9
+  },
+  {
+    "Name": "Bolivia",
+    "Y_2018": 1050
+  },
+  {
+    "Name": "Bouvet Island",
+    "Y_2018": "NULL"
+  },
+  {
+    "Name": "Chile",
+    "Y_2018": 865
+  },
+  {
+    "Name": "Chile",
+    "Y_2018": 40.2
+  },
+  {
+    "Name": "Colombia",
+    "Y_2018": 3210
+  },
+  {
+    "Name": "Colombia",
+    "Y_2018": 50.4
+  },
+  {
+    "Name": "Ecuador",
+    "Y_2018": 6.77
+  },
+  {
+    "Name": "Ecuador",
+    "Y_2018": 854
+  },
+  {
+    "Name": "Falkland Islands (Malvinas)",
+    "Y_2018": 0.00131
+  },
+  {
+    "Name": "Falkland Islands (Malvinas)",
+    "Y_2018": 3.92
+  },
+  {
+    "Name": "French Guiana",
+    "Y_2018": 0.1
+  },
+  {
+    "Name": "French Guiana",
+    "Y_2018": 4.63
+  },
+  {
+    "Name": "Guyana",
+    "Y_2018": 1.3
+  },
+  {
+    "Name": "Guyana",
+    "Y_2018": 69.8
+  },
+  {
+    "Name": "Peru",
+    "Y_2018": 1140
+  },
+  {
+    "Name": "Peru",
+    "Y_2018": 48.6
+  },
+  {
+    "Name": "Paraguay",
+    "Y_2018": 904
+  },
+  {
+    "Name": "Paraguay",
+    "Y_2018": 69.6
+  },
+  {
+    "Name": "South Georgia and the South Sandwich Islands",
+    "Y_2018": "NULL"
+  },
+  {
+    "Name": "Suriname",
+    "Y_2018": 34.6
+  },
+  {
+    "Name": "Suriname",
+    "Y_2018": 0.504
+  },
+  {
+    "Name": "Uruguay",
+    "Y_2018": 975
+  },
+  {
+    "Name": "Uruguay",
+    "Y_2018": 10.3
+  },
+  {
+    "Name": "Venezuela",
+    "Y_2018": 2470
+  },
+  {
+    "Name": "Venezuela",
+    "Y_2018": 6.66
+  },
+  {
+    "Name": "Algeria",
+    "Y_2018": 3300
+  },
+  {
+    "Name": "Algeria",
+    "Y_2018": 0.271
+  },
+  {
+    "Name": "Egypt",
+    "Y_2018": 2540
+  },
+  {
+    "Name": "Egypt",
+    "Y_2018": 23.7
+  },
+  {
+    "Name": "Western Sahara",
+    "Y_2018": 0.0000848
+  },
+  {
+    "Name": "Western Sahara",
+    "Y_2018": 13.9
+  },
+  {
+    "Name": "Libyan Arab Jamahiriya",
+    "Y_2018": 1.82
+  },
+  {
+    "Name": "Libyan Arab Jamahiriya",
+    "Y_2018": 742
+  },
+  {
+    "Name": "Morocco",
+    "Y_2018": 17.3
+  },
+  {
+    "Name": "Morocco",
+    "Y_2018": 1080
+  },
+  {
+    "Name": "Tunisia",
+    "Y_2018": 31.2
+  },
+  {
+    "Name": "Tunisia",
+    "Y_2018": 328
+  },
+  {
+    "Name": "Benin",
+    "Y_2018": 186
+  },
+  {
+    "Name": "Benin",
+    "Y_2018": 70.1
+  },
+  {
+    "Name": "Burkina Faso",
+    "Y_2018": 94.7
+  },
+  {
+    "Name": "Burkina Faso",
+    "Y_2018": 620
+  },
+  {
+    "Name": "Central African Republic",
+    "Y_2018": 19.4
+  },
+  {
+    "Name": "Central African Republic",
+    "Y_2018": 252
+  },
+  {
+    "Name": "Cote d'Ivoire",
+    "Y_2018": 325
+  },
+  {
+    "Name": "Cote d'Ivoire",
+    "Y_2018": 192
+  },
+  {
+    "Name": "Cameroon",
+    "Y_2018": 777
+  },
+  {
+    "Name": "Cameroon",
+    "Y_2018": 86.7
+  },
+  {
+    "Name": "Congo_the Democratic Republic of the",
+    "Y_2018": 589
+  },
+  {
+    "Name": "Congo_the Democratic Republic of the",
+    "Y_2018": 929
+  },
+  {
+    "Name": "Congo",
+    "Y_2018": 513
+  },
+  {
+    "Name": "Congo",
+    "Y_2018": 36.5
+  },
+  {
+    "Name": "Cape Verde",
+    "Y_2018": 6.24
+  },
+  {
+    "Name": "Cape Verde",
+    "Y_2018": 0.796
+  },
+  {
+    "Name": "Gabon",
+    "Y_2018": 394
+  },
+  {
+    "Name": "Gabon",
+    "Y_2018": 17.8
+  },
+  {
+    "Name": "Ghana",
+    "Y_2018": 118
+  },
+  {
+    "Name": "Ghana",
+    "Y_2018": 494
+  },
+  {
+    "Name": "Guinea",
+    "Y_2018": 591
+  },
+  {
+    "Name": "Guinea",
+    "Y_2018": 73.6
+  },
+  {
+    "Name": "Gambia",
+    "Y_2018": 41.7
+  },
+  {
+    "Name": "Gambia",
+    "Y_2018": 6.74
+  },
+  {
+    "Name": "Guinea-Bissau",
+    "Y_2018": 15.3
+  },
+  {
+    "Name": "Guinea-Bissau",
+    "Y_2018": 61.4
+  },
+  {
+    "Name": "Equatorial Guinea",
+    "Y_2018": 355
+  },
+  {
+    "Name": "Equatorial Guinea",
+    "Y_2018": 2.32
+  },
+  {
+    "Name": "Liberia",
+    "Y_2018": 42.8
+  },
+  {
+    "Name": "Liberia",
+    "Y_2018": 50.6
+  },
+  {
+    "Name": "Mali",
+    "Y_2018": 960
+  },
+  {
+    "Name": "Mali",
+    "Y_2018": 47.2
+  },
+  {
+    "Name": "Mauritania",
+    "Y_2018": 282
+  },
+  {
+    "Name": "Mauritania",
+    "Y_2018": 20.2
+  },
+  {
+    "Name": "Niger",
+    "Y_2018": 40.3
+  },
+  {
+    "Name": "Niger",
+    "Y_2018": 856
+  },
+  {
+    "Name": "Nigeria",
+    "Y_2018": 1710
+  },
+  {
+    "Name": "Nigeria",
+    "Y_2018": 6950
+  },
+  {
+    "Name": "Senegal",
+    "Y_2018": 369
+  },
+  {
+    "Name": "Senegal",
+    "Y_2018": 34.1
+  },
+  {
+    "Name": "Saint Helena",
+    "Y_2018": 0.114
+  },
+  {
+    "Name": "Sierra Leone",
+    "Y_2018": 48.2
+  },
+  {
+    "Name": "Sierra Leone",
+    "Y_2018": 142
+  },
+  {
+    "Name": "Sao Tome and Principe",
+    "Y_2018": 1.77
+  },
+  {
+    "Name": "Sao Tome and Principe",
+    "Y_2018": 0.946
+  },
+  {
+    "Name": "Chad",
+    "Y_2018": 57.9
+  },
+  {
+    "Name": "Chad",
+    "Y_2018": 1880
+  },
+  {
+    "Name": "Togo",
+    "Y_2018": 85.6
+  },
+  {
+    "Name": "Togo",
+    "Y_2018": 110
+  },
+  {
+    "Name": "Burundi",
+    "Y_2018": 37.7
+  },
+  {
+    "Name": "Burundi",
+    "Y_2018": 133
+  },
+  {
+    "Name": "Comoros",
+    "Y_2018": 13.2
+  },
+  {
+    "Name": "Comoros",
+    "Y_2018": 3.8
+  },
+  {
+    "Name": "Djibouti",
+    "Y_2018": 4.31
+  },
+  {
+    "Name": "Djibouti",
+    "Y_2018": 36.8
+  },
+  {
+    "Name": "Eritrea",
+    "Y_2018": 143
+  },
+  {
+    "Name": "Eritrea",
+    "Y_2018": 22.9
+  },
+  {
+    "Name": "Ethiopia",
+    "Y_2018": 619
+  },
+  {
+    "Name": "Ethiopia",
+    "Y_2018": 3150
+  },
+  {
+    "Name": "Kenya",
+    "Y_2018": 487
+  },
+  {
+    "Name": "Kenya",
+    "Y_2018": 1760
+  },
+  {
+    "Name": "Madagascar",
+    "Y_2018": 142
+  },
+  {
+    "Name": "Madagascar",
+    "Y_2018": 682
+  },
+  {
+    "Name": "Mauritius",
+    "Y_2018": 0.614
+  },
+  {
+    "Name": "Mauritius",
+    "Y_2018": 22.6
+  },
+  {
+    "Name": "Mayotte",
+    "Y_2018": 1.22
+  },
+  {
+    "Name": "Mayotte",
+    "Y_2018": "NULL"
+  },
+  {
+    "Name": "Reunion",
+    "Y_2018": 8.28
+  },
+  {
+    "Name": "Reunion",
+    "Y_2018": 0.855
+  },
+  {
+    "Name": "Rwanda",
+    "Y_2018": 22.4
+  },
+  {
+    "Name": "Rwanda",
+    "Y_2018": 136
+  },
+  {
+    "Name": "Sudan",
+    "Y_2018": 2810
+  },
+  {
+    "Name": "Sudan",
+    "Y_2018": 264
+  },
+  {
+    "Name": "Somalia",
+    "Y_2018": 736
+  },
+  {
+    "Name": "Somalia",
+    "Y_2018": 125
+  },
+  {
+    "Name": "Seychelles",
+    "Y_2018": 2.44
+  },
+  {
+    "Name": "Seychelles",
+    "Y_2018": 0.0121
+  },
+  {
+    "Name": "Uganda",
+    "Y_2018": 227
+  },
+  {
+    "Name": "Uganda",
+    "Y_2018": 940
+  },
+  {
+    "Name": "Angola",
+    "Y_2018": 166
+  },
+  {
+    "Name": "Angola",
+    "Y_2018": 1560
+  },
+  {
+    "Name": "Botswana",
+    "Y_2018": 7.37
+  },
+  {
+    "Name": "Botswana",
+    "Y_2018": 127
+  },
+  {
+    "Name": "Lesotho",
+    "Y_2018": 15.2
+  },
+  {
+    "Name": "Lesotho",
+    "Y_2018": 47.8
+  },
+  {
+    "Name": "Mozambique",
+    "Y_2018": 177
+  },
+  {
+    "Name": "Mozambique",
+    "Y_2018": 565
+  },
+  {
+    "Name": "Malawi",
+    "Y_2018": 54.9
+  },
+  {
+    "Name": "Malawi",
+    "Y_2018": 243
+  },
+  {
+    "Name": "Namibia",
+    "Y_2018": 18.3
+  },
+  {
+    "Name": "Namibia",
+    "Y_2018": 193
+  },
+  {
+    "Name": "Swaziland",
+    "Y_2018": 4.72
+  },
+  {
+    "Name": "Swaziland",
+    "Y_2018": 42.4
+  },
+  {
+    "Name": "Tanzania_United Republic of",
+    "Y_2018": 1500
+  },
+  {
+    "Name": "Tanzania_United Republic of",
+    "Y_2018": 322
+  },
+  {
+    "Name": "South Africa",
+    "Y_2018": 203
+  },
+  {
+    "Name": "South Africa",
+    "Y_2018": 3140
+  },
+  {
+    "Name": "Zambia",
+    "Y_2018": 199
+  },
+  {
+    "Name": "Zambia",
+    "Y_2018": 278
+  },
+  {
+    "Name": "Zimbabwe",
+    "Y_2018": 101
+  },
+  {
+    "Name": "Zimbabwe",
+    "Y_2018": 412
+  },
+  {
+    "Name": "Austria",
+    "Y_2018": 27
+  },
+  {
+    "Name": "Austria",
+    "Y_2018": 375
+  },
+  {
+    "Name": "Belgium",
+    "Y_2018": 680
+  },
+  {
+    "Name": "Belgium",
+    "Y_2018": 11.4
+  },
+  {
+    "Name": "Switzerland",
+    "Y_2018": 9.76
+  },
+  {
+    "Name": "Switzerland",
+    "Y_2018": 194
+  },
+  {
+    "Name": "Germany",
+    "Y_2018": 2450
+  },
+  {
+    "Name": "Germany",
+    "Y_2018": 115
+  },
+  {
+    "Name": "Denmark",
+    "Y_2018": 18
+  },
+  {
+    "Name": "Denmark",
+    "Y_2018": 331
+  },
+  {
+    "Name": "Spain",
+    "Y_2018": 46.6
+  },
+  {
+    "Name": "Spain",
+    "Y_2018": 1700
+  },
+  {
+    "Name": "Finland",
+    "Y_2018": 30.5
+  },
+  {
+    "Name": "Finland",
+    "Y_2018": 769
+  },
+  {
+    "Name": "France",
+    "Y_2018": 110
+  },
+  {
+    "Name": "France",
+    "Y_2018": 2580
+  },
+  {
+    "Name": "Faroe Islands",
+    "Y_2018": 0.000068
+  },
+  {
+    "Name": "Faroe Islands",
+    "Y_2018": 1.4
+  },
+  {
+    "Name": "United Kingdom",
+    "Y_2018": 39
+  },
+  {
+    "Name": "United Kingdom",
+    "Y_2018": 1860
+  },
+  {
+    "Name": "Gibraltar",
+    "Y_2018": 0.53
+  },
+  {
+    "Name": "Greece",
+    "Y_2018": 10.6
+  },
+  {
+    "Name": "Greece",
+    "Y_2018": 456
+  },
+  {
+    "Name": "Greenland",
+    "Y_2018": 0.00594
+  },
+  {
+    "Name": "Greenland",
+    "Y_2018": 2.37
+  },
+  {
+    "Name": "Ireland",
+    "Y_2018": 757
+  },
+  {
+    "Name": "Ireland",
+    "Y_2018": 1.55
+  },
+  {
+    "Name": "Iceland",
+    "Y_2018": 20.6
+  },
+  {
+    "Name": "Iceland",
+    "Y_2018": 0.0416
+  },
+  {
+    "Name": "Italy",
+    "Y_2018": 98.6
+  },
+  {
+    "Name": "Italy",
+    "Y_2018": 1530
+  },
+  {
+    "Name": "Luxembourg",
+    "Y_2018": 0.443
+  },
+  {
+    "Name": "Luxembourg",
+    "Y_2018": 22
+  },
+  {
+    "Name": "Netherlands",
+    "Y_2018": 810
+  },
+  {
+    "Name": "Netherlands",
+    "Y_2018": 14.3
+  },
+  {
+    "Name": "Norway",
+    "Y_2018": 7.78
+  },
+  {
+    "Name": "Norway",
+    "Y_2018": 854
+  },
+  {
+    "Name": "Portugal",
+    "Y_2018": 13.7
+  },
+  {
+    "Name": "Portugal",
+    "Y_2018": 365
+  },
+  {
+    "Name": "Sweden",
+    "Y_2018": 29
+  },
+  {
+    "Name": "Sweden",
+    "Y_2018": 439
+  },
+  {
+    "Name": "Albania",
+    "Y_2018": 2.49
+  },
+  {
+    "Name": "Albania",
+    "Y_2018": 94.3
+  },
+  {
+    "Name": "Bulgaria",
+    "Y_2018": 330
+  },
+  {
+    "Name": "Bulgaria",
+    "Y_2018": 14.1
+  },
+  {
+    "Name": "Bosnia and Herzegovina",
+    "Y_2018": 188
+  },
+  {
+    "Name": "Bosnia and Herzegovina",
+    "Y_2018": 9.76
+  },
+  {
+    "Name": "Cyprus",
+    "Y_2018": 0.422
+  },
+  {
+    "Name": "Cyprus",
+    "Y_2018": 38.4
+  },
+  {
+    "Name": "Czech Republic",
+    "Y_2018": 468
+  },
+  {
+    "Name": "Czech Republic",
+    "Y_2018": 27.6
+  },
+  {
+    "Name": "Estonia",
+    "Y_2018": 122
+  },
+  {
+    "Name": "Estonia",
+    "Y_2018": 6.06
+  },
+  {
+    "Name": "Croatia",
+    "Y_2018": 15.8
+  },
+  {
+    "Name": "Croatia",
+    "Y_2018": 159
+  },
+  {
+    "Name": "Hungary",
+    "Y_2018": 292
+  },
+  {
+    "Name": "Hungary",
+    "Y_2018": 26.8
+  },
+  {
+    "Name": "Lithuania",
+    "Y_2018": 151
+  },
+  {
+    "Name": "Lithuania",
+    "Y_2018": 9.11
+  },
+  {
+    "Name": "Latvia",
+    "Y_2018": 10.7
+  },
+  {
+    "Name": "Latvia",
+    "Y_2018": 84.5
+  },
+  {
+    "Name": "Macedonia, the former Yugoslav Republic of",
+    "Y_2018": 2.95
+  },
+  {
+    "Name": "Macedonia, the former Yugoslav Republic of",
+    "Y_2018": 58.8
+  },
+  {
+    "Name": "Malta",
+    "Y_2018": 5.49
+  },
+  {
+    "Name": "Malta",
+    "Y_2018": 0.0228
+  },
+  {
+    "Name": "Poland",
+    "Y_2018": 2430
+  },
+  {
+    "Name": "Poland",
+    "Y_2018": 54.6
+  },
+  {
+    "Name": "Romania",
+    "Y_2018": 800
+  },
+  {
+    "Name": "Romania",
+    "Y_2018": 49.1
+  },
+  {
+    "Name": "Serbia and Montenegro",
+    "Y_2018": 342
+  },
+  {
+    "Name": "Serbia and Montenegro",
+    "Y_2018": 36
+  },
+  {
+    "Name": "Slovakia",
+    "Y_2018": 239
+  },
+  {
+    "Name": "Slovakia",
+    "Y_2018": 3.31
+  },
+  {
+    "Name": "Slovenia",
+    "Y_2018": 6.06
+  },
+  {
+    "Name": "Slovenia",
+    "Y_2018": 132
+  },
+  {
+    "Name": "Turkey",
+    "Y_2018": 4010
+  },
+  {
+    "Name": "Turkey",
+    "Y_2018": 65.4
+  },
+  {
+    "Name": "Belarus",
+    "Y_2018": 10.4
+  },
+  {
+    "Name": "Belarus",
+    "Y_2018": 643
+  },
+  {
+    "Name": "Moldova, Republic of",
+    "Y_2018": 10.5
+  },
+  {
+    "Name": "Moldova, Republic of",
+    "Y_2018": 84.9
+  },
+  {
+    "Name": "Ukraine",
+    "Y_2018": 66
+  },
+  {
+    "Name": "Ukraine",
+    "Y_2018": 1850
+  },
+  {
+    "Name": "Kazakhstan",
+    "Y_2018": 9.08
+  },
+  {
+    "Name": "Kazakhstan",
+    "Y_2018": 2650
+  },
+  {
+    "Name": "Kyrgyzstan",
+    "Y_2018": 0.621
+  },
+  {
+    "Name": "Kyrgyzstan",
+    "Y_2018": 309
+  },
+  {
+    "Name": "Tajikistan",
+    "Y_2018": 0.414
+  },
+  {
+    "Name": "Tajikistan",
+    "Y_2018": 335
+  },
+  {
+    "Name": "Turkmenistan",
+    "Y_2018": 1810
+  },
+  {
+    "Name": "Turkmenistan",
+    "Y_2018": 0.576
+  },
+  {
+    "Name": "Uzbekistan",
+    "Y_2018": 2670
+  },
+  {
+    "Name": "Uzbekistan",
+    "Y_2018": 3.64
+  },
+  {
+    "Name": "Armenia",
+    "Y_2018": 84.7
+  },
+  {
+    "Name": "Armenia",
+    "Y_2018": 2.14
+  },
+  {
+    "Name": "Azerbaijan",
+    "Y_2018": 754
+  },
+  {
+    "Name": "Azerbaijan",
+    "Y_2018": 1.55
+  },
+  {
+    "Name": "Georgia",
+    "Y_2018": 4.7
+  },
+  {
+    "Name": "Georgia",
+    "Y_2018": 148
+  },
+  {
+    "Name": "Russian Federation",
+    "Y_2018": 74.6
+  },
+  {
+    "Name": "Russian Federation",
+    "Y_2018": 16300
+  },
+  {
+    "Name": "United Arab Emirates",
+    "Y_2018": 0.383
+  },
+  {
+    "Name": "United Arab Emirates",
+    "Y_2018": 1790
+  },
+  {
+    "Name": "Bahrain",
+    "Y_2018": 0.00000886
+  },
+  {
+    "Name": "Bahrain",
+    "Y_2018": 940
+  },
+  {
+    "Name": "Iran, Islamic Republic of",
+    "Y_2018": 6.73
+  },
+  {
+    "Name": "Iran, Islamic Republic of",
+    "Y_2018": 8540
+  },
+  {
+    "Name": "Iraq",
+    "Y_2018": 5790
+  },
+  {
+    "Name": "Iraq",
+    "Y_2018": 5.59
+  },
+  {
+    "Name": "Israel",
+    "Y_2018": 473
+  },
+  {
+    "Name": "Israel",
+    "Y_2018": 1.5
+  },
+  {
+    "Name": "Jordan",
+    "Y_2018": 2.99
+  },
+  {
+    "Name": "Jordan",
+    "Y_2018": 217
+  },
+  {
+    "Name": "Kuwait",
+    "Y_2018": 1250
+  },
+  {
+    "Name": "Kuwait",
+    "Y_2018": 0.00547
+  },
+  {
+    "Name": "Lebanon",
+    "Y_2018": 1.94
+  },
+  {
+    "Name": "Lebanon",
+    "Y_2018": 145
+  },
+  {
+    "Name": "Oman",
+    "Y_2018": 1270
+  },
+  {
+    "Name": "Oman",
+    "Y_2018": 0.144
+  },
+  {
+    "Name": "Qatar",
+    "Y_2018": 0.0404
+  },
+  {
+    "Name": "Qatar",
+    "Y_2018": 2970
+  },
+  {
+    "Name": "Saudi Arabia",
+    "Y_2018": 0.819
+  },
+  {
+    "Name": "Saudi Arabia",
+    "Y_2018": 4340
+  },
+  {
+    "Name": "Syrian Arab Republic",
+    "Y_2018": 398
+  },
+  {
+    "Name": "Syrian Arab Republic",
+    "Y_2018": 1.52
+  },
+  {
+    "Name": "Yemen",
+    "Y_2018": 462
+  },
+  {
+    "Name": "Yemen",
+    "Y_2018": 9.19
+  },
+  {
+    "Name": "Afghanistan",
+    "Y_2018": 599
+  },
+  {
+    "Name": "Afghanistan",
+    "Y_2018": 21
+  },
+  {
+    "Name": "Bangladesh",
+    "Y_2018": 5010
+  },
+  {
+    "Name": "Bangladesh",
+    "Y_2018": 183
+  },
+  {
+    "Name": "Bhutan",
+    "Y_2018": 23.9
+  },
+  {
+    "Name": "Bhutan",
+    "Y_2018": 13
+  },
+  {
+    "Name": "India",
+    "Y_2018": 2170
+  },
+  {
+    "Name": "India",
+    "Y_2018": 28600
+  },
+  {
+    "Name": "Sri Lanka",
+    "Y_2018": 37.4
+  },
+  {
+    "Name": "Sri Lanka",
+    "Y_2018": 577
+  },
+  {
+    "Name": "Maldives",
+    "Y_2018": 5.87
+  },
+  {
+    "Name": "Maldives",
+    "Y_2018": 0.122
+  },
+  {
+    "Name": "Nepal",
+    "Y_2018": 130
+  },
+  {
+    "Name": "Nepal",
+    "Y_2018": 1090
+  },
+  {
+    "Name": "Pakistan",
+    "Y_2018": 8220
+  },
+  {
+    "Name": "Pakistan",
+    "Y_2018": 439
+  },
+  {
+    "Name": "Korea, Republic of",
+    "Y_2018": 1680
+  },
+  {
+    "Name": "Korea, Republic of",
+    "Y_2018": 10.9
+  },
+  {
+    "Name": "Korea, Democratic People's Republic of",
+    "Y_2018": 26.9
+  },
+  {
+    "Name": "Korea, Democratic People's Republic of",
+    "Y_2018": 731
+  },
+  {
+    "Name": "China",
+    "Y_2018": 65000
+  },
+  {
+    "Name": "China",
+    "Y_2018": 956
+  },
+  {
+    "Name": "Hong Kong",
+    "Y_2018": 192
+  },
+  {
+    "Name": "Hong Kong",
+    "Y_2018": 0.727
+  },
+  {
+    "Name": "Macao",
+    "Y_2018": 3.9
+  },
+  {
+    "Name": "Macao",
+    "Y_2018": 0.117
+  },
+  {
+    "Name": "Mongolia",
+    "Y_2018": 1220
+  },
+  {
+    "Name": "Mongolia",
+    "Y_2018": 3.2
+  },
+  {
+    "Name": "Taiwan_Province of China",
+    "Y_2018": 631
+  },
+  {
+    "Name": "Taiwan_Province of China",
+    "Y_2018": 3.78
+  },
+  {
+    "Name": "Brunei Darussalam",
+    "Y_2018": 0.0113
+  },
+  {
+    "Name": "Brunei Darussalam",
+    "Y_2018": 198
+  },
+  {
+    "Name": "Cambodia",
+    "Y_2018": 858
+  },
+  {
+    "Name": "Cambodia",
+    "Y_2018": 150
+  },
+  {
+    "Name": "Lao People's Democratic Republic",
+    "Y_2018": 34.6
+  },
+  {
+    "Name": "Lao People's Democratic Republic",
+    "Y_2018": 401
+  },
+  {
+    "Name": "Myanmar",
+    "Y_2018": 186
+  },
+  {
+    "Name": "Myanmar",
+    "Y_2018": 3420
+  },
+  {
+    "Name": "Malaysia",
+    "Y_2018": 12.5
+  },
+  {
+    "Name": "Malaysia",
+    "Y_2018": 2080
+  },
+  {
+    "Name": "Philippines",
+    "Y_2018": 285
+  },
+  {
+    "Name": "Philippines",
+    "Y_2018": 2730
+  },
+  {
+    "Name": "Singapore",
+    "Y_2018": 206
+  },
+  {
+    "Name": "Singapore",
+    "Y_2018": 0.487
+  },
+  {
+    "Name": "Thailand",
+    "Y_2018": 357
+  },
+  {
+    "Name": "Thailand",
+    "Y_2018": 4150
+  },
+  {
+    "Name": "Timor-Leste",
+    "Y_2018": 153
+  },
+  {
+    "Name": "Timor-Leste",
+    "Y_2018": 0.591
+  },
+  {
+    "Name": "Viet Nam",
+    "Y_2018": 208
+  },
+  {
+    "Name": "Viet Nam",
+    "Y_2018": 4280
+  },
+  {
+    "Name": "Indonesia",
+    "Y_2018": 13800
+  },
+  {
+    "Name": "Indonesia",
+    "Y_2018": 938
+  },
+  {
+    "Name": "Papua New Guinea",
+    "Y_2018": 13.8
+  },
+  {
+    "Name": "Papua New Guinea",
+    "Y_2018": 312
+  },
+  {
+    "Name": "Japan",
+    "Y_2018": 2080
+  },
+  {
+    "Name": "Japan",
+    "Y_2018": 27.1
+  },
+  {
+    "Name": "American Samoa",
+    "Y_2018": 0.0000962
+  },
+  {
+    "Name": "American Samoa",
+    "Y_2018": 0.526
+  },
+  {
+    "Name": "French Southern Territories",
+    "Y_2018": "NULL"
+  },
+  {
+    "Name": "Australia",
+    "Y_2018": 4510
+  },
+  {
+    "Name": "Australia",
+    "Y_2018": 52.9
+  },
+  {
+    "Name": "Cocos (Keeling) Islands",
+    "Y_2018": "NULL"
+  },
+  {
+    "Name": "Cook Islands",
+    "Y_2018": 0.000428
+  },
+  {
+    "Name": "Cook Islands",
+    "Y_2018": 0.294
+  },
+  {
+    "Name": "Christmas Island",
+    "Y_2018": "NULL"
+  },
+  {
+    "Name": "Fiji",
+    "Y_2018": 0.383
+  },
+  {
+    "Name": "Fiji",
+    "Y_2018": 24
+  },
+  {
+    "Name": "Micronesia, Federated States of",
+    "Y_2018": 0.000573
+  },
+  {
+    "Name": "Micronesia, Federated States of",
+    "Y_2018": 1.28
+  },
+  {
+    "Name": "Guam",
+    "Y_2018": 2.16
+  },
+  {
+    "Name": "Guam",
+    "Y_2018": 0.000706
+  },
+  {
+    "Name": "Heard Island and McDonald Islands",
+    "Y_2018": "NULL"
+  },
+  {
+    "Name": "Kiribati",
+    "Y_2018": 0.0504
+  },
+  {
+    "Name": "Kiribati",
+    "Y_2018": 0.875
+  },
+  {
+    "Name": "Marshall Islands",
+    "Y_2018": 0.0799
+  },
+  {
+    "Name": "Northern Mariana Islands",
+    "Y_2018": 0.124
+  },
+  {
+    "Name": "New Caledonia",
+    "Y_2018": 7.36
+  },
+  {
+    "Name": "New Caledonia",
+    "Y_2018": 0.0919
+  },
+  {
+    "Name": "Norfolk Island",
+    "Y_2018": "NULL"
+  },
+  {
+    "Name": "Niue",
+    "Y_2018": 0.0411
+  },
+  {
+    "Name": "Niue",
+    "Y_2018": 0.0000755
+  },
+  {
+    "Name": "Nauru",
+    "Y_2018": 0.117
+  },
+  {
+    "Name": "New Zealand",
+    "Y_2018": 1370
+  },
+  {
+    "Name": "New Zealand",
+    "Y_2018": 4.64
+  },
+  {
+    "Name": "Pitcairn",
+    "Y_2018": "NULL"
+  },
+  {
+    "Name": "Palau",
+    "Y_2018": 0.0000826
+  },
+  {
+    "Name": "Palau",
+    "Y_2018": 1.05
+  },
+  {
+    "Name": "French Polynesia",
+    "Y_2018": 0.0616
+  },
+  {
+    "Name": "French Polynesia",
+    "Y_2018": 4.2
+  },
+  {
+    "Name": "Solomon Islands",
+    "Y_2018": 0.462
+  },
+  {
+    "Name": "Solomon Islands",
+    "Y_2018": 7.03
+  },
+  {
+    "Name": "Tokelau",
+    "Y_2018": 0.00991
+  },
+  {
+    "Name": "Tokelau",
+    "Y_2018": 0.0000556
+  },
+  {
+    "Name": "Tonga",
+    "Y_2018": 3.15
+  },
+  {
+    "Name": "Tonga",
+    "Y_2018": 0.0289
+  },
+  {
+    "Name": "Tuvalu",
+    "Y_2018": 0.191
+  },
+  {
+    "Name": "Vanuatu",
+    "Y_2018": 0.289
+  },
+  {
+    "Name": "Vanuatu",
+    "Y_2018": 15.7
+  },
+  {
+    "Name": "Wallis and Futuna",
+    "Y_2018": 0.213
+  },
+  {
+    "Name": "Wallis and Futuna",
+    "Y_2018": 0.0004
+  },
+  {
+    "Name": "Samoa",
+    "Y_2018": 6.62
+  },
+  {
+    "Name": "Samoa",
+    "Y_2018": 0.216
+  },
+  {
+    "Name": "Int. Shipping",
+    "Y_2018": 533
+  },
+  {
+    "Name": "Int. Shipping",
+    "Y_2018": 0.0762
+  },
+  {
+    "Name": "Int. Aviation",
+    "Y_2018": 4.29
+  }
+]

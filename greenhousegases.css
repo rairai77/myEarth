@@ -1,0 +1,134 @@
+body {
+  background-color: #000000;
+}
+
+#full-container {
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("https://cdn.glitch.global/4fddc2d2-8afe-4546-a021-281e7b5d551b/anotherphoto.png?v=1653184403653");
+  background-size: cover;
+  max-width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.accordion-cont {
+  margin: 70px 0 0 0;
+  
+}
+
+.dark-background{
+  background-color: #00000080;
+  padding: 80px 30px;
+  border-radius: 5px;
+  margin-top: 10vh;
+}
+
+.accordion-button,
+.accordion-body {
+  background-color: #ffffff14 !important;
+  color: white;
+}
+
+.accordion-button{
+  font-weight:500;
+  color:#4cbdae;
+}
+
+.accordion * {
+  border: none !important;
+}
+
+.accordion {
+  --bs-accordion-bg: none;
+  --bs-accordion-active-color: #4cbdae;
+}
+
+.accordion-button::after {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+}
+
+.gradient-background {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.1) 20%,
+    rgba(0, 0, 0, 0.15) 40%,
+    rgba(0, 0, 0, 0.15) 60%,
+    rgba(0, 0, 0, 0.1) 80%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+.mainlogo {
+  border-radius: 25px;
+  margin-left: 20px;
+}
+
+.white {
+  color: white;
+}
+
+#primaryTitle {
+  font-size: 60px;
+  padding-left: 12px;
+  text-shadow: 3px 3px black;
+}
+
+.quicksand {
+  font-family: "Quicksand", sans-serif;
+}
+
+.ssp {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.nav-link {
+  font-size: 20px;
+}
+
+/* unvisited link */
+.nav-link:link {
+  color: #ffffff;
+}
+
+/* visited link */
+.nav-link:visited {
+  color: #ffffff;
+}
+
+/* mouse over link */
+.nav-link:hover {
+  color: #cccccc;
+}
+
+/* selected link */
+.nav-link:active {
+  color: #adadad;
+}
+
+.navbar-brand:hover {
+  filter: brightness(90%);
+}
+
+.container-fluid {
+  margin-top: 5px;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.maintitle {
+  font-family: "Quicksand", sans-serif;
+  font-size: 4em;
+  letter-spacing:.2rem;
+  text-align: center;
+  color: #ffffff;
+}
