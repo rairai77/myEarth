@@ -179,15 +179,15 @@ body {
 }
 
 #curselected:link {
-  color: #5eafff;
+  color: #34eb71;
 }
 
 #curselected:visited {
-  color: #5eafff;
+  color: #34eb71;
 }
 
 #curselected:hover {
-  color: #569de3;
+  color: #21c457;
 }
 
 
@@ -241,24 +241,24 @@ body {
   padding-top: 20px;
   color: #edf3ff;
   font-size: 1em;
-  background-color: #34eb7160;
+  background-color: #1aa323;
 /*   background-color: #0d618080; */
   padding-bottom: 30px;
 /*   text-shadow: 1px 1px #000000; */
   margin-top: 30px;
-/*   border-radius: 0px 25px 25px 0px; */
+  border-radius: 0px 25px 25px 0px;
   padding-right: 10px;
   margin-right: 20px;
 }
 
 #mainhelpleft {
   padding-top: 20px;
-  color: #0d6180;
+  color: #1aa323;
   font-size: 3em;
-  background-color: #ffffff80;
+  background-color: #ffffff;
   padding-bottom: 30px;
   margin-top: 30px;
-/*   border-radius: 25px 0px 0px 25px; */
+  border-radius: 25px 0px 0px 25px;
   padding-right: 30px;
 }
 
@@ -303,12 +303,12 @@ body {
 }
 
 .linkthing {
-  color: #6bd8ff;
+  color: #4df083;
   text-decoration: none;
 }
 
 .linkthing:hover {
-  color: #51c1e8;
+  color: #26d460;
 }
 
 #greenintro {
@@ -332,8 +332,8 @@ body {
 
 #nearyou {
   scroll-snap-align: start;
+  height: 100vh;
 }
-
 
 
 
