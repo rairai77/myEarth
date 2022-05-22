@@ -1,2 +1,2 @@
 # myEarth
-hths.hacks 2022
+a hackathon submission
