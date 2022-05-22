@@ -1,0 +1,23 @@
+{
+  "name": "my_earth",
+  "description": "Globe emissions heatmap",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [],
+  "author": "Ira, Warren, Arca, Raahil",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "h",
+  "dependencies": {
+    "globe.gl": "^2.26.1"
+  }
+}
+

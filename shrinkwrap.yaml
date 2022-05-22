@@ -1,0 +1,295 @@
+dependencies:
+  globe.gl: 2.26.1
+packages:
+  /@babel/runtime/7.18.0:
+    dependencies:
+      regenerator-runtime: 0.13.9
+    dev: false
+    engines:
+      node: '>=6.9.0'
+    resolution:
+      integrity: sha512-YMQvx/6nKEaucl0MY56mwIG483xk8SDNdlUwb2Ts6FUpr7fm85DxEmsY18LXBNhcTz6tO6JwZV8w1W06v8UKeg==
+  /@turf/boolean-point-in-polygon/6.5.0:
+    dependencies:
+      '@turf/helpers': 6.5.0
+      '@turf/invariant': 6.5.0
+    dev: false
+    resolution:
+      integrity: sha512-DtSuVFB26SI+hj0SjrvXowGTUCHlgevPAIsukssW6BG5MlNSBQAo70wpICBNJL6RjukXg8d2eXaAWuD/CqL00A==
+  /@turf/helpers/6.5.0:
+    dev: false
+    resolution:
+      integrity: sha512-VbI1dV5bLFzohYYdgqwikdMVpe7pJ9X3E+dlr425wa2/sMJqYDhTO++ec38/pcPvPE6oD9WEEeU3Xu3gza+VPw==
+  /@turf/invariant/6.5.0:
+    dependencies:
+      '@turf/helpers': 6.5.0
+    dev: false
+    resolution:
+      integrity: sha512-Wv8PRNCtPD31UVbdJE/KVAWKe7l6US+lJItRR/HOEW3eh+U/JwRCSUl/KZ7bmjM/C+zLNoreM2TU6OoLACs4eg==
+  /@tweenjs/tween.js/18.6.4:
+    dev: false
+    resolution:
+      integrity: sha512-lB9lMjuqjtuJrx7/kOkqQBtllspPIN+96OvTCeJ2j5FEzinoAXTdAMFnDAQT1KVPRlnYfBrqxtqP66vDM40xxQ==
+  /accessor-fn/1.3.2:
+    dev: false
+    resolution:
+      integrity: sha512-W4/Lj/gry8AHy+IC7Havr7fNbphHDzVAiZd5h10g8LRRz6ZKla3A1/lkFqoV1jh13R0eJLGWjDBlRGK36fcWiw==
+  /d3-array/3.1.6:
+    dependencies:
+      internmap: 2.0.3
+    dev: false
+    engines:
+      node: '>=12'
+    resolution:
+      integrity: sha512-DCbBBNuKOeiR9h04ySRBMW52TFVc91O9wJziuyXw6Ztmy8D3oZbmCkOO3UHKC7ceNJsN2Mavo9+vwV8EAEUXzA==
+  /d3-color/3.1.0:
+    dev: false
+    engines:
+      node: '>=12'
+    resolution:
+      integrity: sha512-zg/chbXyeBtMQ1LbD/WSoW2DpC3I0mpmPdW+ynRTj/x2DAWYrIY7qeZIHidozwV24m4iavr15lNwIwLxRmOxhA==
+  /d3-delaunay/6.0.2:
+    dependencies:
+      delaunator: 5.0.0
+    dev: false
+    engines:
+      node: '>=12'
+    resolution:
+      integrity: sha512-IMLNldruDQScrcfT+MWnazhHbDJhcRJyOEBAJfwQnHle1RPh6WDuLvxNArUju2VSMSUuKlY5BGHRJ2cYyoFLQQ==
+  /d3-format/3.1.0:
+    dev: false
+    engines:
+      node: '>=12'
+    resolution:
+      integrity: sha512-YyUI6AEuY/Wpt8KWLgZHsIU86atmikuoOmCfommt0LYHiQSPjvX2AcFc38PX0CBpr2RCyZhjex+NS/LPOv6YqA==
+  /d3-geo-voronoi/2.0.1:
+    dependencies:
+      d3-array: 3.1.6
+      d3-delaunay: 6.0.2
+      d3-geo: 3.0.1
+      d3-tricontour: 1.0.2
+    dev: false
+    engines:
+      node: '>=12'
+    resolution:
+      integrity: sha512-KeBrhSLyN6fdcjGxpmil9I7JNsRQIbp58PybKFnebG1qpbwon5ia43epUpYgjgZZxfrhjb+3up0f6IwkQuPkwg==
+  /d3-geo/3.0.1:
+    dependencies:
+      d3-array: 3.1.6
+    dev: false
+    engines:
+      node: '>=12'
+    resolution:
+      integrity: sha512-Wt23xBych5tSy9IYAM1FR2rWIBFWa52B/oF/GYe5zbdHrg08FU8+BuI6X4PvTwPDdqdAdq04fuWJpELtsaEjeA==
+  /d3-interpolate/3.0.1:
+    dependencies:
+      d3-color: 3.1.0
+    dev: false
+    engines:
+      node: '>=12'
+    resolution:
+      integrity: sha512-3bYs1rOD33uo8aqJfKP3JWPAibgw8Zm2+L9vBKEHJ2Rg+viTR7o5Mmv5mZcieN+FRYaAOWX5SJATX6k1PWz72g==
+  /d3-scale/4.0.2:
+    dependencies:
+      d3-array: 3.1.6
+      d3-format: 3.1.0
+      d3-interpolate: 3.0.1
+      d3-time: 3.0.0
+      d3-time-format: 4.1.0
+    dev: false
+    engines:
+      node: '>=12'
+    resolution:
+      integrity: sha512-GZW464g1SH7ag3Y7hXjf8RoUuAFIqklOAq3MRl4OaWabTFJY9PN/E1YklhXLh+OQ3fM9yS2nOkCoS+WLZ6kvxQ==
+  /d3-time-format/4.1.0:
+    dependencies:
+      d3-time: 3.0.0
+    dev: false
+    engines:
+      node: '>=12'
+    resolution:
+      integrity: sha512-dJxPBlzC7NugB2PDLwo9Q8JiTR3M3e4/XANkreKSUxF8vvXKqm1Yfq4Q5dl8budlunRVlUUaDUgFt7eA8D6NLg==
+  /d3-time/3.0.0:
+    dependencies:
+      d3-array: 3.1.6
+    dev: false
+    engines:
+      node: '>=12'
+    resolution:
+      integrity: sha512-zmV3lRnlaLI08y9IMRXSDshQb5Nj77smnfpnd2LrBa/2K281Jijactokeak14QacHs/kKq0AQ121nidNYlarbQ==
+  /d3-tricontour/1.0.2:
+    dependencies:
+      d3-delaunay: 6.0.2
+      d3-scale: 4.0.2
+    dev: false
+    engines:
+      node: '>=12'
+    resolution:
+      integrity: sha512-HIRxHzHagPtUPNabjOlfcyismJYIsc+Xlq4mlsts4e8eAcwyq9Tgk/sYdyhlBpQ0MHwVquc/8j+e29YjXnmxeA==
+  /data-joint/1.2.5:
+    dependencies:
+      index-array-by: 1.3.2
+    dev: false
+    resolution:
+      integrity: sha512-OcGbcTctTq7AdiWAzJdktyzi5wVzv7q6291BsKLdxVdyrsx9pZLb9QIpxavWHMd+OS5DgJgfhgoM4jjF//DRqg==
+  /debounce/1.2.1:
+    dev: false
+    resolution:
+      integrity: sha512-XRRe6Glud4rd/ZGQfiV1ruXSfbvfJedlV9Y6zOlP+2K04vBYiJEte6stfFkCP03aMnY5tsipamumUjL14fofug==
+  /delaunator/5.0.0:
+    dependencies:
+      robust-predicates: 3.0.1
+    dev: false
+    resolution:
+      integrity: sha512-AyLvtyJdbv/U1GkiS6gUUzclRoAY4Gs75qkMygJJhU75LW4DNuSF2RMzpxs9jw9Oz1BobHjTdkG3zdP55VxAqw==
+  /earcut/2.2.3:
+    dev: false
+    resolution:
+      integrity: sha512-iRDI1QeCQIhMCZk48DRDMVgQSSBDmbzzNhnxIo+pwx3swkfjMh6vh0nWLq1NdvGHLKH6wIrAM3vQWeTj6qeoug==
+  /frame-ticker/1.0.3:
+    dependencies:
+      simplesignal: 2.1.7
+    dev: false
+    resolution:
+      integrity: sha1-LJnT/rtJP9HTYhNRzQAxiXlKEkU=
+  /globe.gl/2.26.1:
+    dependencies:
+      '@tweenjs/tween.js': 18.6.4
+      accessor-fn: 1.3.2
+      kapsule: 1.13.7
+      three: 0.140.2
+      three-globe: /three-globe/2.24.4/three@0.140.2
+      three-render-objects: /three-render-objects/1.26.8/three@0.140.2
+    dev: false
+    resolution:
+      integrity: sha512-kNEw4qAHQYHpVACsM/KdDj6bddSgOEbkRsMUUK7wPiCBB9zgnlSUPkkEgjZ333ltunO/i3S6Rek/74wUByxeGw==
+  /h3-js/3.7.2:
+    dev: false
+    engines:
+      node: '>=4'
+      npm: '>=3'
+      yarn: '>=1.3.0'
+    resolution:
+      integrity: sha512-LPjlHSwB9zQZrMqKloCZmmmt3yZzIK7nqPcXqwU93zT3TtYG6jP4tZBzAPouxut7lLjdFbMQ75wRBiKfpsnY7w==
+  /index-array-by/1.3.2:
+    dev: false
+    resolution:
+      integrity: sha512-OIiTTJ4bfAcHTcMUZp3nmSpxAES+nARZNADnGBhg7OjywT8caxm3FR8fdnSnZIF1LvKDk5wN05oBF6qkVk2ZFg==
+  /internmap/2.0.3:
+    dev: false
+    engines:
+      node: '>=12'
+    resolution:
+      integrity: sha512-5Hh7Y1wQbvY5ooGgPbDaL5iYLAPzMTUrjMulskHLH6wnv/A+1q5rgEaiuqEjB+oxGXIVZs1FF+R/KPN3ZSQYYg==
+  /kapsule/1.13.7:
+    dependencies:
+      debounce: 1.2.1
+    dev: false
+    resolution:
+      integrity: sha512-CKhyHyKyz5bYehAzz95U0ji5T9f4P0RXXPqQ2tGKjuTz3bJnHIUj8vCzGjnhFZ4XYtVT2wMvIq8D8Awb5rawcQ==
+  /polished/4.2.2:
+    dependencies:
+      '@babel/runtime': 7.18.0
+    dev: false
+    engines:
+      node: '>=10'
+    resolution:
+      integrity: sha512-Sz2Lkdxz6F2Pgnpi9U5Ng/WdWAUZxmHrNPoVlm3aAemxoy2Qy7LGjQg4uf8qKelDAUW94F4np3iH2YPf2qefcQ==
+  /regenerator-runtime/0.13.9:
+    dev: false
+    resolution:
+      integrity: sha512-p3VT+cOEgxFsRRA9X4lkI1E+k2/CtnKtU4gcxyaCUreilL/vqI6CdZ3wxVUx3UOUg+gnUOQQcRI7BmSI656MYA==
+  /robust-predicates/3.0.1:
+    dev: false
+    resolution:
+      integrity: sha512-ndEIpszUHiG4HtDsQLeIuMvRsDnn8c8rYStabochtUeCvfuvNptb5TUbVD68LRAILPX7p9nqQGh4xJgn3EHS/g==
+  /simplesignal/2.1.7:
+    dev: false
+    resolution:
+      integrity: sha1-jhWXix+LRNVb19cIHcN7cUfPEp8=
+  /three-conic-polygon-geometry/1.5.1/three@0.140.2:
+    dependencies:
+      '@turf/boolean-point-in-polygon': 6.5.0
+      d3-array: 3.1.6
+      d3-geo: 3.0.1
+      d3-geo-voronoi: 2.0.1
+      d3-scale: 4.0.2
+      delaunator: 5.0.0
+      earcut: 2.2.3
+      three: 0.140.2
+    dev: false
+    id: registry.npmjs.org/three-conic-polygon-geometry/1.5.1
+    peerDependencies:
+      three: '>=0.72.0'
+    resolution:
+      integrity: sha512-T6O76fhvknLCSH6zl6gtNWFwqw5TQ9HbSkOvNelJemT0cJO9PVj1HIsvRZqGxNT4WAWsij1v5naeS25sozUmrg==
+  /three-fatline/0.5.3/three@0.140.2:
+    dependencies:
+      three: 0.140.2
+    dev: false
+    id: registry.npmjs.org/three-fatline/0.5.3
+    peerDependencies:
+      three: '>=0.84.0'
+    resolution:
+      integrity: sha512-oKpBkodXLim6STcM6mbdZT4i0PwsXnjHzsEo6I0OO7HHkbkV1XJ+mvmuMDwmfAxT5PjJDbQhvrB1lfoGjEQdUg==
+  /three-geojson-geometry/1.1.7/three@0.140.2:
+    dependencies:
+      d3-geo: 3.0.1
+      earcut: 2.2.3
+      three: 0.140.2
+    dev: false
+    id: registry.npmjs.org/three-geojson-geometry/1.1.7
+    peerDependencies:
+      three: '>=0.72.0'
+    resolution:
+      integrity: sha512-JhZ22lX4ghYsQ9XF6reaRfB+pnjJ8csDcS9Sy6TosBp0BkckbE+pqUWO8bn2tLY/3PqHf9Hcz/njNgvCLSRKzA==
+  /three-globe/2.24.4/three@0.140.2:
+    dependencies:
+      '@tweenjs/tween.js': 18.6.4
+      accessor-fn: 1.3.2
+      d3-geo: 3.0.1
+      d3-interpolate: 3.0.1
+      d3-scale: 4.0.2
+      data-joint: 1.2.5
+      earcut: 2.2.3
+      frame-ticker: 1.0.3
+      h3-js: 3.7.2
+      index-array-by: 1.3.2
+      kapsule: 1.13.7
+      three: 0.140.2
+      three-conic-polygon-geometry: /three-conic-polygon-geometry/1.5.1/three@0.140.2
+      three-fatline: /three-fatline/0.5.3/three@0.140.2
+      three-geojson-geometry: /three-geojson-geometry/1.1.7/three@0.140.2
+      tinycolor2: 1.4.2
+    dev: false
+    id: registry.npmjs.org/three-globe/2.24.4
+    peerDependencies:
+      three: '>=0.109.0'
+    resolution:
+      integrity: sha512-+0t4XU4oV2sRnzTCWGJ+JyCIY7E3RbC/w9MU1MWBmiHfTaEkhbmacgU7H5Cow+VzWv+S6sxznc5NxxLi/Mufkw==
+  /three-render-objects/1.26.8/three@0.140.2:
+    dependencies:
+      '@tweenjs/tween.js': 18.6.4
+      accessor-fn: 1.3.2
+      kapsule: 1.13.7
+      polished: 4.2.2
+      three: 0.140.2
+    dev: false
+    id: registry.npmjs.org/three-render-objects/1.26.8
+    peerDependencies:
+      three: '*'
+    resolution:
+      integrity: sha512-pCu439/SM2OOnDB71a52b005TGP7Hk1e0h7kBoCHaiQK9lmxXIpatDy9RdcQjz5Vx1Ug1Hsywcasq0pSlvxjCQ==
+  /three/0.140.2:
+    dev: false
+    resolution:
+      integrity: sha512-DdT/AHm/TbZXEhQKQpGt5/iSgBrmXpjU26FNtj1KhllVPTKj1eG4X/ShyD5W2fngE+I1s1wa4ttC4C3oCJt7Ag==
+  /tinycolor2/1.4.2:
+    dev: false
+    resolution:
+      integrity: sha512-vJhccZPs965sV/L2sU4oRQVAos0pQXwsvTLkWYdqJ+a8Q5kPFzJTuOFwy7UniPli44NKQGAglksjvOcpo95aZA==
+registry: 'https://registry.npmjs.org/'
+shrinkwrapMinorVersion: 9
+shrinkwrapVersion: 3
+specifiers:
+  globe.gl: ^2.26.1

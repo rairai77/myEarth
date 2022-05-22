@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>myEarth</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="shortcut icon"
+      href="https://cdn.glitch.global/4fddc2d2-8afe-4546-a021-281e7b5d551b/hthshacks2022logo.ico?v=1653159522167"
+    />
+    <link href="./index.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="//unpkg.com/d3"></script>
+    <script src="//unpkg.com/globe.gl"></script>
+  </head>
+  <body>
+    <div id="full-container">
+      <nav
+        class="navbar navbar-expand-sm navbar-light quicksand gradient-background"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              class="d-inline-block align-text-top mainlogo"
+              src="https://cdn.glitch.global/4fddc2d2-8afe-4546-a021-281e7b5d551b/myEarthLogo.png?v=1653168263149"
+              width="219px"
+              height="80px"
+            />
+          </a>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link white" href="#">Placeholder</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link white" href="#howtohelp">How To Help</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link white" href="greenhousegases.html"
+                >Greenhouse Gases</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="hero-text" id="hero-name">
+        <p>myEarth</p>
+        <p class="hero-paragraph">
+          Our Earth &#38; Greenhouse Gases. Simplified.
+        </p>
+      </div>
+
+      <a href="#howtohelp" class="scroll-down" address="true"></a>
+    </div>
+
+    <div id="globeViz" style="max-width: 100vh !important;"></div>
+
+    <script>
+      console.log("hi");
+      fetch("./co2emissions.json")
+        .then((response) => {
+          return response.json();
+        })
+        .then((co2_data) => {
+          let data = {};
+          co2_data.forEach((dat) => {
+            let ccn = dat.Country_code_A3;
+            if(isNaN(dat.Y_2018)){
+              dat.Y_2018 = 0;
+            }
+            if (typeof data[ccn] != "undefined") {
+              data[ccn].Y_2018 += Number(dat.Y_2018);
+            } else {
+              data[ccn] = dat;
+            }
+          });
+          return data;
+        })
+        .then((data) => {
+        console.log(data)
+          render_globe(data);
+        });
+      const render_globe = (data) => {
+        const colorScale = d3.scaleSequentialSqrt(d3.interpolateYlOrRd);
+
+        const getVal = (feat) => {
+          if (typeof data[feat.properties.ADM0_A3] != "undefined") {
+            return data[feat.properties.ADM0_A3].Y_2018;
+          }
+          return 0;
+        };
+
+        fetch(
+          "https://globe.gl/example/datasets/ne_110m_admin_0_countries.geojson"
+        )
+          .then((res) => res.json())
+          .then((countries) => {
+            const maxVal = Math.max(...countries.features.map(getVal));
+            colorScale.domain([0, maxVal]);
+
+            const world = Globe()
+              .globeImageUrl(
+                "//unpkg.com/three-globe/example/img/earth-night.jpg"
+              )
+              .backgroundImageUrl(
+                "//unpkg.com/three-globe/example/img/night-sky.png"
+              )
+              .lineHoverPrecision(0)
+              .polygonsData(
+                countries.features.filter((d) => d.properties.ISO_A2 !== "AQ")
+              )
+              .polygonAltitude(0.06)
+              .polygonCapColor((feat) => colorScale(getVal(feat)))
+              .polygonSideColor(() => "rgba(0, 100, 0, 0.15)")
+              .polygonStrokeColor(() => "#111")
+              .polygonLabel(
+                ({ properties: d }) => `
+          <b>${d.ADMIN} (${d.ISO_A2}):</b> <br />
+          Kilotons Emitted: <i>${(typeof data[d.ADM0_A3] == "undefined" || isNaN(data[d.ADM0_A3].Y_2018)) ? "No data" : data[d.ADM0_A3].Y_2018}</i>
+        `
+              )
+              .onPolygonHover((hoverD) =>
+                world
+                  .polygonAltitude((d) => (d === hoverD ? 0.12 : 0.06))
+                  .polygonCapColor((d) =>
+                    d === hoverD ? "steelblue" : colorScale(getVal(d))
+                  )
+              )
+              .polygonsTransitionDuration(300)(
+              document.getElementById("globeViz")
+            );
+          });
+      };
+    </script>
+    
+    <div class="howtohelp" id="howtohelp">
+      <h1>How To Help</h1>
+      <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-1" id="mainhelpleft">
+        
+          <i class="fa-solid fa-angle-right"></i>
+        
+        </div>
+        <div class="col-sm-7" id="mainhelpright" style="margin-bottom: 0px">
+          <p>
+            Did you know that even a 2-mile car ride puts 2 pounds of CO2 into the atmosphere?
+          </p>
+          <p>
+            Consider walking or riding your bike instead of driving by car to
+            your destination.
+          </p>
+          <p>
+            You can ask your parents to buy reusable bags to go grocery shopping
+            in. Be sure to remind them to use them when they’re shopping with
+            you.
+          </p>
+          <p>
+            Recycle if you can! Collect plastic bottles and cans and bring them
+            to your local recycling center for a cash reward!
+          </p>
+          <p>
+            Try not to use the heater when it gets cold. Sweaters, blankets, and
+            wool socks will keep you cozy and are better for the planet.
+          </p>
+          <p>
+            You can make a real difference by choosing a “green career” in the
+            future! These careers will solve climate change problems and
+            challenges. Many of these careers haven’t been thought of yet, so
+            you could even invent your own!
+          </p>
+        </div>
+        <div class="col-sm-2"></div>
+      </div>
+    </div>
+
+    <div class="about">
+      <h1>Want to learn more?</h1>
+      <p id="greenintro">
+        Check out our page on
+        <a class="linkthing" href="greenhousegases.html">Greenhouse Gases!</a>
+      </p>
+      <p id="authors">
+        This is a project for
+        <a class="linkthing" href="https://hthshacks-22.devpost.com/"
+          >hths.hacks() 2022</a
+        >
+        by Arca Baran, Warren Guo, Raahil Jain, and Irina Y.
+      </p>
+      <p id="copyright">&copy;myEarth 2022</p>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/c9f2ec347e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://requirejs.org/docs/release/2.3.6/minified/require.js"></script>
+    <script src="index.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
