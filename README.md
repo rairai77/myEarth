@@ -11,6 +11,7 @@ We were also inspired by the Google Earth 3D interactive globe. We all thought i
 
 myEarth is a unique educational website catered to middle school-aged children, educating them on dangerous gas emissions and providing them with climate change solutions they can use in their daily lives.<br><br>
 The centerpiece of the website is a fully interactable 3D globe. You can zoom in on and rotate the globe as well as hover over the various countries to view the carbon emission stats of each. The countries themselves are colored like a heat map based on carbon emissions in each country.
+
 ![Short Demo Gif of Globe](https://media.discordapp.net/attachments/977555158743515219/977926097385693234/cap.gif?width=949&height=753)
 
 ## How we built it
