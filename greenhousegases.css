@@ -159,13 +159,13 @@ body {
 
 
 #curselected:link {
-  color: #5eafff;
+  color: #34eb71;
 }
 
 #curselected:visited {
-  color: #5eafff;
+  color: #34eb71;
 }
 
 #curselected:hover {
-  color: #569de3;
+  color: #21c457;
 }
