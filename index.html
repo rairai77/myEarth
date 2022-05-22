@@ -91,7 +91,6 @@
     </section>
 
     <script>
-      console.log("hi");
       fetch("./co2emissions.json")
         .then((response) => {
           return response.json();
@@ -112,7 +111,6 @@
           return data;
         })
         .then((data) => {
-          console.log(data);
           render_globe(data);
         });
       const render_globe = (data) => {
@@ -185,8 +183,7 @@
         <div class="col-xs-2 col-sm-2"></div>
         <div class="row col-xs-8 col-sm-8">
           <div
-            class="col-xs-1 col-sm-1"
-            id="mainhelpleft"
+            class="col-xs-1 col-sm-1 mainhelplefttop mainhelpleft"
             style="margin: 0 auto"
           >
             <div class="row">
@@ -195,31 +192,108 @@
             </div>
           </div>
           <div
-            class="col-xs-11 col-sm-11"
-            id="mainhelpright"
-            style="margin-bottom: 0px"
+            class="col-xs-11 col-sm-11 mainhelprighttop mainhelpright"
+            style="margin-bottom: 0px; padding-bottom: 0px;"
           >
             <p>
               Did you know that even a 2-mile car ride puts 2 pounds of CO2 into
               the atmosphere?
-            </p>
-            <p>
               Consider walking or riding your bike instead of driving by car to
               your destination.
             </p>
+          </div>
+        </div>
+        <div class="col-xs-2 col-sm-2"></div>
+      </div>
+      <div class="row">
+        <div class="col-xs-2 col-sm-2"></div>
+        <div class="row col-xs-8 col-sm-8">
+          <div
+            class="col-xs-1 col-sm-1 mainhelpleft2 mainhelpleft"
+            style="margin: 0 auto"
+          >
+            <div class="row">
+              <div class="col-xs-4 col-sm-4"></div>
+              <i class="fa-solid fa-angle-right col-xs-8 col-sm-8"></i>
+            </div>
+          </div>
+          <div
+            class="col-xs-11 col-sm-11 mainhelpright2 mainhelpright"
+            style="margin-bottom: 0px; padding-bottom: 0px;"
+          >
             <p>
               You can ask your parents to buy reusable bags to go grocery
               shopping in. Be sure to remind them to use them when they’re
               shopping with you.
             </p>
+          </div>
+        </div>
+        <div class="col-xs-2 col-sm-2"></div>
+      </div>
+      <div class="row">
+        <div class="col-xs-2 col-sm-2"></div>
+        <div class="row col-xs-8 col-sm-8">
+          <div
+            class="col-xs-1 col-sm-1 mainhelpleft3 mainhelpleft"
+            style="margin: 0 auto"
+          >
+            <div class="row">
+              <div class="col-xs-4 col-sm-4"></div>
+              <i class="fa-solid fa-angle-right col-xs-8 col-sm-8"></i>
+            </div>
+          </div>
+          <div
+            class="col-xs-11 col-sm-11 mainhelpright3 mainhelpright"
+            style="margin-bottom: 0px; padding-bottom: 0px;"
+          >
             <p>
               Recycle if you can! Collect plastic bottles and cans and bring
-              them to your local recycling center for a cash reward!
+              them to your local recycling center for a cash reward! Check out <a class="linkthing2" href="#nearyou">the map below</a> to see your local recycling centers.
             </p>
+          </div>
+        </div>
+        <div class="col-xs-2 col-sm-2"></div>
+      </div>
+      <div class="row">
+        <div class="col-xs-2 col-sm-2"></div>
+        <div class="row col-xs-8 col-sm-8">
+          <div
+            class="col-xs-1 col-sm-1 mainhelpleft4 mainhelpleft"
+            style="margin: 0 auto"
+          >
+            <div class="row">
+              <div class="col-xs-4 col-sm-4"></div>
+              <i class="fa-solid fa-angle-right col-xs-8 col-sm-8"></i>
+            </div>
+          </div>
+          <div
+            class="col-xs-11 col-sm-11 mainhelpright4 mainhelpright"
+            style="margin-bottom: 0px; padding-bottom: 0px;"
+          >
             <p>
               Try not to use the heater when it gets cold. Sweaters, blankets,
               and wool socks will keep you cozy and are better for the planet.
             </p>
+          </div>
+        </div>
+        <div class="col-xs-2 col-sm-2"></div>
+      </div>
+      <div class="row">
+        <div class="col-xs-2 col-sm-2"></div>
+        <div class="row col-xs-8 col-sm-8">
+          <div
+            class="col-xs-1 col-sm-1 mainhelpleft5 mainhelpleft"
+            style="margin: 0 auto"
+          >
+            <div class="row">
+              <div class="col-xs-4 col-sm-4"></div>
+              <i class="fa-solid fa-angle-right col-xs-8 col-sm-8"></i>
+            </div>
+          </div>
+          <div
+            class="col-xs-11 col-sm-11 mainhelpright5 mainhelpright"
+            style="margin-bottom: 0px; padding-bottom: 0px;"
+          >
             <p>
               You can make a real difference by choosing a “green career” in the
               future! These careers will solve climate change problems and
@@ -233,17 +307,21 @@
       <section id="nearyou">
       <h2
         class="quicksand"
-        style="color: white; text-align: center; padding-top: 40px"
+        style="color: white; text-align: center; padding-top: 40px; margin-bottom: 20px;"
       >
         Recycling Centers Near You
       </h2>
-      <iframe
+        <div style="display: flex; align-items: center; justify-content: center;">
+          <div id="mainmap">
+            <iframe
         width="600"
         height="450"
-        style="border: 0; margin: 0 auto; display: block"
+        style="border: 0; margin: 0;"
         loading="lazy"
         src="https://www.google.com/maps/embed/v1/search?q=Recyclings%20center%20near%20me&key=AIzaSyAzw5Mex5gXZziNYF-jHVBJ3nCVfTRsq2A "
       ></iframe>
+          </div>
+        </div>
         </section>
     </div>
 

@@ -236,31 +236,81 @@ body {
   color: #ffffff;
 }
 
-#mainhelpright {
-  font-family: "Source Sans Pro", sans-serif;
+.mainhelprighttop {
+  border-radius: 0px 25px 0px 0px;
   padding-top: 20px;
-  color: #edf3ff;
+  background-color: #57c454;
+}
+
+.mainhelplefttop {
+  border-radius: 25px 0px 0px 0px;
+  padding-top: 20px;
+  color: #57c454;
+}
+
+.mainhelpright {
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 1em;
-  background-color: #1aa323;
+  color: #edf3ff;
 /*   background-color: #0d618080; */
   padding-bottom: 30px;
 /*   text-shadow: 1px 1px #000000; */
   margin-top: 30px;
-  border-radius: 0px 25px 25px 0px;
-  padding-right: 10px;
+  padding-right: 50px;
+  padding-left: 30px;
   margin-right: 20px;
 }
 
-#mainhelpleft {
-  padding-top: 20px;
-  color: #1aa323;
+.mainhelpleft {
   font-size: 3em;
   background-color: #ffffff;
-  padding-bottom: 30px;
+  padding-bottom: 0px;
   margin-top: 30px;
-  border-radius: 25px 0px 0px 25px;
   padding-right: 30px;
 }
+
+.mainhelpright2 {
+  padding-top: 10px;
+  background-color: #4bb548;
+}
+
+.mainhelpleft2 {
+  padding-top: 10px;
+  color: #4bb548;
+}
+
+.mainhelpright3 {
+  padding-top: 10px;
+  background-color: #42ab3f;
+}
+
+.mainhelpleft3 {
+  padding-top: 10px;
+  color: #42ab3f;
+}
+
+.mainhelpright4 {
+  padding-top: 10px;
+  background-color: #359932;
+}
+
+.mainhelpleft4 {
+  padding-top: 10px;
+  color: #359932;
+}
+
+.mainhelpright5 {
+  border-radius: 0px 0px 25px 0px;
+  padding-top: 10px;
+  background-color: #2a8727;
+}
+
+.mainhelpleft5 {
+  border-radius: 0px 0px 0px 25px;
+  padding-top: 10px;
+  color: #2a8727;
+}
+
 
 .fa-angle-right {
   margin: auto;
@@ -311,6 +361,24 @@ body {
   color: #26d460;
 }
 
+.linkthing2 {
+  color: #a8dfff;
+  text-decoration: none;
+}
+
+.linkthing2:hover {
+  color: #8ccaed;
+}
+
+#mainmap {
+  background-color: #114d91;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+}
+
 #greenintro {
   font-size: 1.2em;
 }
@@ -332,7 +400,6 @@ body {
 
 #nearyou {
   scroll-snap-align: start;
-  height: 100vh;
 }
 
 
