@@ -1,3 +1,23 @@
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555555; 
+}
+
 body {
   background-color: #000000;
 }
@@ -6,7 +26,7 @@ body {
   height: 100%;
   width: 100%;
   min-height: 100vh;
-  background-image: url("https://cdn.glitch.global/4fddc2d2-8afe-4546-a021-281e7b5d551b/anotherphoto.png?v=1653184403653");
+  background-image: url("https://cdn.glitch.global/4fddc2d2-8afe-4546-a021-281e7b5d551b/dark-2024127.png?v=1653177011483");
   background-size: cover;
   max-width: 100%;
   height: auto;
@@ -28,13 +48,13 @@ body {
 
 .accordion-button,
 .accordion-body {
-  background-color: #ffffff14 !important;
+  background-color: #00000040 !important;
   color: white;
 }
 
 .accordion-button{
   font-weight:500;
-  color:#4cbdae;
+  color:#ffffff;
 }
 
 .accordion * {
@@ -43,7 +63,7 @@ body {
 
 .accordion {
   --bs-accordion-bg: none;
-  --bs-accordion-active-color: #4cbdae;
+  --bs-accordion-active-color: #34eb71;
 }
 
 .accordion-button::after {
@@ -127,8 +147,23 @@ body {
 
 .maintitle {
   font-family: "Quicksand", sans-serif;
+  background: linear-gradient(to left, rgb(135, 122, 255), rgb(255, 120, 236));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-size: 4em;
   letter-spacing:.2rem;
   text-align: center;
   color: #ffffff;
+}
+
+#curselected:link {
+  color: #5eafff;
+}
+
+#curselected:visited {
+  color: #5eafff;
+}
+
+#curselected:hover {
+  color: #569de3;
 }

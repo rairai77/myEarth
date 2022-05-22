@@ -33,17 +33,36 @@
           <a class="navbar-brand" href="#">
             <img
               class="d-inline-block align-text-top mainlogo"
-              src="https://cdn.glitch.global/4fddc2d2-8afe-4546-a021-281e7b5d551b/myEarthLogo.png?v=1653168263149"
+              src="https://cdn.glitch.global/4fddc2d2-8afe-4546-a021-281e7b5d551b/logo2.png?v=1653202546776"
               width="219px"
               height="80px"
             />
           </a>
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link white" href="#">Placeholder</a>
+              <a
+                class="nav-link white"
+                id="curselected"
+                href="#full-container"
+                style="border-right: 1px solid white"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link white" href="#howtohelp">How To Help</a>
+              <a
+                class="nav-link white"
+                style="border-right: 1px solid white"
+                href="#globeViz"
+                >Carbon Emission Visualizer</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link white"
+                style="border-right: 1px solid white"
+                href="#howtohelp"
+                >How To Help</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link white" href="greenhousegases.html"
@@ -55,20 +74,22 @@
       </nav>
 
       <div class="hero-text" id="hero-name">
-        <p>myEarth</p>
+        <p>my<span style="color: #34eb71">Earth</span></p>
         <p class="hero-paragraph">
-          Our Earth &#38; Greenhouse Gases. Simplified.
+          Our Earth &#38; Greenhouse Gases.
+          <span style="color: #d87cf7">Simplified.</span>
         </p>
       </div>
 
-      <a href="#howtohelp" class="scroll-down" address="true"></a>
+      <a href="#globeViz" class="scroll-down" address="true"></a>
     </div>
 
     <section>
-      <div id="globeViz"></div>
-      <a href="#howtohelp" class="scroll2" address="true"></a>
+      <div id="globeViz" style="min-height: 100vh !important"></div>
+      <a href="#howtohelp" class="scrollDown" address="true"></a>
+      <a href="#full-container" class="scrollUp" address="true"></a>
     </section>
-    
+
     <script>
       console.log("hi");
       fetch("./co2emissions.json")
@@ -125,17 +146,18 @@
               )
               .polygonAltitude(0.06)
               .polygonCapColor((feat) => colorScale(getVal(feat)))
-              .polygonSideColor(() => "rgba(0, 100, 0, 0.15)")
-              .polygonStrokeColor(() => "#111")
+              .polygonSideColor(() => "rgba(0, 0, 100, 0.15)")
+              .polygonStrokeColor(() => "#111111")
               .polygonLabel(
                 ({ properties: d }) => `
+                <div class="property_label_bg">
           <b>${d.ADMIN} (${d.ISO_A2}):</b> <br />
-          Kilotons Emitted: <i>${
+          <span style="color: #57de6e;">Kilotons Emitted: <i>${
             typeof data[d.ADM0_A3] == "undefined" ||
             isNaN(data[d.ADM0_A3].Y_2018)
               ? "No data"
-              : data[d.ADM0_A3].Y_2018
-          }</i>
+              : data[d.ADM0_A3].Y_2018.toFixed(2)
+          }</i></span></div>
         `
               )
               .onPolygonHover((hoverD) =>
@@ -156,50 +178,73 @@
           });
       };
     </script>
-    
+
     <div class="howtohelp" id="howtohelp">
       <h1>How To Help</h1>
       <div class="row">
         <div class="col-xs-2 col-sm-2"></div>
-        <div class="col-xs-1 col-sm-1" id="mainhelpleft" style="margin: 0 auto;">
-          <div class="row">
-            <div class="col-xs-4 col-sm-4">
-             
+        <div class="row col-xs-8 col-sm-8">
+          <div
+            class="col-xs-1 col-sm-1"
+            id="mainhelpleft"
+            style="margin: 0 auto"
+          >
+            <div class="row">
+              <div class="col-xs-4 col-sm-4"></div>
+              <i class="fa-solid fa-angle-right col-xs-8 col-sm-8"></i>
             </div>
-            <i class="fa-solid fa-angle-right col-xs-8 col-sm-8"></i>
           </div>
-        </div>
-        <div class="col-xs-7 col-sm-7" id="mainhelpright" style="margin-bottom: 0px">
-          <p>
-            Did you know that even a 2-mile car ride puts 2 pounds of CO2 into
-            the atmosphere?
-          </p>
-          <p>
-            Consider walking or riding your bike instead of driving by car to
-            your destination.
-          </p>
-          <p>
-            You can ask your parents to buy reusable bags to go grocery shopping
-            in. Be sure to remind them to use them when they’re shopping with
-            you.
-          </p>
-          <p>
-            Recycle if you can! Collect plastic bottles and cans and bring them
-            to your local recycling center for a cash reward!
-          </p>
-          <p>
-            Try not to use the heater when it gets cold. Sweaters, blankets, and
-            wool socks will keep you cozy and are better for the planet.
-          </p>
-          <p>
-            You can make a real difference by choosing a “green career” in the
-            future! These careers will solve climate change problems and
-            challenges. Many of these careers haven’t been thought of yet, so
-            you could even invent your own!
-          </p>
+          <div
+            class="col-xs-11 col-sm-11"
+            id="mainhelpright"
+            style="margin-bottom: 0px"
+          >
+            <p>
+              Did you know that even a 2-mile car ride puts 2 pounds of CO2 into
+              the atmosphere?
+            </p>
+            <p>
+              Consider walking or riding your bike instead of driving by car to
+              your destination.
+            </p>
+            <p>
+              You can ask your parents to buy reusable bags to go grocery
+              shopping in. Be sure to remind them to use them when they’re
+              shopping with you.
+            </p>
+            <p>
+              Recycle if you can! Collect plastic bottles and cans and bring
+              them to your local recycling center for a cash reward!
+            </p>
+            <p>
+              Try not to use the heater when it gets cold. Sweaters, blankets,
+              and wool socks will keep you cozy and are better for the planet.
+            </p>
+            <p>
+              You can make a real difference by choosing a “green career” in the
+              future! These careers will solve climate change problems and
+              challenges. Many of these careers haven’t been thought of yet, so
+              you could even invent your own!
+            </p>
+          </div>
         </div>
         <div class="col-xs-2 col-sm-2"></div>
       </div>
+      <section id="nearyou">
+      <h2
+        class="quicksand"
+        style="color: white; text-align: center; padding-top: 40px"
+      >
+        Recycling Centers Near You
+      </h2>
+      <iframe
+        width="600"
+        height="450"
+        style="border: 0; margin: 0 auto; display: block"
+        loading="lazy"
+        src="https://www.google.com/maps/embed/v1/search?q=Recyclings%20center%20near%20me&key=AIzaSyAzw5Mex5gXZziNYF-jHVBJ3nCVfTRsq2A "
+      ></iframe>
+        </section>
     </div>
 
     <div class="about">
