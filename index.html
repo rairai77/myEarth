@@ -64,8 +64,11 @@
       <a href="#howtohelp" class="scroll-down" address="true"></a>
     </div>
 
-    <div id="globeViz" style="max-width: 100vh !important;"></div>
-
+    <section>
+      <div id="globeViz"></div>
+      <a href="#howtohelp" class="scroll2" address="true"></a>
+    </section>
+    
     <script>
       console.log("hi");
       fetch("./co2emissions.json")
@@ -76,7 +79,7 @@
           let data = {};
           co2_data.forEach((dat) => {
             let ccn = dat.Country_code_A3;
-            if(isNaN(dat.Y_2018)){
+            if (isNaN(dat.Y_2018)) {
               dat.Y_2018 = 0;
             }
             if (typeof data[ccn] != "undefined") {
@@ -88,7 +91,7 @@
           return data;
         })
         .then((data) => {
-        console.log(data)
+          console.log(data);
           render_globe(data);
         });
       const render_globe = (data) => {
@@ -127,7 +130,12 @@
               .polygonLabel(
                 ({ properties: d }) => `
           <b>${d.ADMIN} (${d.ISO_A2}):</b> <br />
-          Kilotons Emitted: <i>${(typeof data[d.ADM0_A3] == "undefined" || isNaN(data[d.ADM0_A3].Y_2018)) ? "No data" : data[d.ADM0_A3].Y_2018}</i>
+          Kilotons Emitted: <i>${
+            typeof data[d.ADM0_A3] == "undefined" ||
+            isNaN(data[d.ADM0_A3].Y_2018)
+              ? "No data"
+              : data[d.ADM0_A3].Y_2018
+          }</i>
         `
               )
               .onPolygonHover((hoverD) =>
@@ -140,6 +148,11 @@
               .polygonsTransitionDuration(300)(
               document.getElementById("globeViz")
             );
+            window.addEventListener("resize", (event) => {
+              world.width([document.getElementById("globeViz").offsetWidth]);
+              world.height([event.target.innerHeight]);
+            });
+            world.width([document.getElementById("globeViz").offsetWidth]);
           });
       };
     </script>
@@ -147,15 +160,19 @@
     <div class="howtohelp" id="howtohelp">
       <h1>How To Help</h1>
       <div class="row">
-        <div class="col-sm-2"></div>
-        <div class="col-sm-1" id="mainhelpleft">
-        
-          <i class="fa-solid fa-angle-right"></i>
-        
+        <div class="col-xs-2 col-sm-2"></div>
+        <div class="col-xs-1 col-sm-1" id="mainhelpleft" style="margin: 0 auto;">
+          <div class="row">
+            <div class="col-xs-4 col-sm-4">
+             
+            </div>
+            <i class="fa-solid fa-angle-right col-xs-8 col-sm-8"></i>
+          </div>
         </div>
-        <div class="col-sm-7" id="mainhelpright" style="margin-bottom: 0px">
+        <div class="col-xs-7 col-sm-7" id="mainhelpright" style="margin-bottom: 0px">
           <p>
-            Did you know that even a 2-mile car ride puts 2 pounds of CO2 into the atmosphere?
+            Did you know that even a 2-mile car ride puts 2 pounds of CO2 into
+            the atmosphere?
           </p>
           <p>
             Consider walking or riding your bike instead of driving by car to
@@ -181,7 +198,7 @@
             you could even invent your own!
           </p>
         </div>
-        <div class="col-sm-2"></div>
+        <div class="col-xs-2 col-sm-2"></div>
       </div>
     </div>
 
