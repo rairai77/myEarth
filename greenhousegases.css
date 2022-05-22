@@ -35,7 +35,7 @@ body {
 }
 
 .accordion-cont {
-  margin: 70px 0 0 0;
+  margin: 40px 0 0 0;
   
 }
 
@@ -154,7 +154,9 @@ body {
   letter-spacing:.2rem;
   text-align: center;
   color: #ffffff;
+  text-shadow: -1px -4px #ffffff;
 }
+
 
 #curselected:link {
   color: #5eafff;
